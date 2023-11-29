@@ -1,14 +1,21 @@
-<table [border]="1">
-    <tr>
-        <th>Id</th>
-        <th>Etiqueta</th>
-        <th>Descrição</th>
-        <th>Aquisição</th>
-    </tr>
-    <tr *ngFor="let item of items">
-        <td>{{item.id}}</td>
-        <td>{{item.barcodeLabel}}</td>
-        <td>{{item.description}}</td>
-        <td>{{item.acquisitionDate | date:"dd/MM/yyyy"}}</td>
-    </tr>
-</table>
+<div class="table-container">
+    <table class="styled-table" >
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Etiqueta</th>
+                <th>Descrição</th>
+                <th>Aquisição</th>
+            </tr>        
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of items">
+                <td>{{item.id}}</td>
+                <td>{{item.barcodeLabel}}</td>
+                <td>{{item.description}}</td>
+                <td>{{item.acquisitionDate | date:"dd/MM/yyyy"}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

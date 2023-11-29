@@ -13,7 +13,37 @@ export class ItemFormComponent {
 
   items: Item[] = [
     {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
-    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date }
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
+    {id: 1, barcodeLabel: 'AA1234', description: 'Notevb', acquisitionDate: new Date },
+    {id: 2, barcodeLabel: 'BB1234', description: 'Novtevb', acquisitionDate: new Date },
   ]
 
 }
