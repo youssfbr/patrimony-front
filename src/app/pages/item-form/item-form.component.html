@@ -1,27 +1,26 @@
 <h1>Gestão de Patrimônio</h1>
 
-<div class="sectionA">
-    <div class="barcode">
-        <label>Etiqueta</label>
-        <input>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="sectionA">
+        <div class="barcode">
+            <label for="barcode-label">Etiqueta</label>
+            <input type="text" id="barcode-label" formControlName="barcodeLabel">
+        </div>
+        <div class="acquisitionDate">
+            <label for="acquisition_date">Data de Aquisição</label>
+            <input type="date" id="acquisition_date" formControlName="acquisitionDate">
+        </div>
     </div>
-    <div class="date">
-        <label>Data de Aquisição</label>
-        <input>
+    
+    <div class="sectionB">
+        <label for="description">Descrição</label>
+        <input type="text" id="description" formControlName="description">
     </div>
-</div>
-
-<div class="sectionB">
-    <label>Descrição</label>
-    <input>
-</div>
-
-<button class="btn">
-    Adicionar
-</button>
-
-
-
+    
+    <button class="btn" type="submit" [disabled]="!form.valid">
+        Adicionar
+    </button>
+</form>
 
 <div class="table-container">
     <table class="styled-table" >

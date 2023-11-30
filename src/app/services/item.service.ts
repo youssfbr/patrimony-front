@@ -10,8 +10,12 @@ export class ItemService {
 
   constructor(private http: HttpClient) { }
 
-  getAllItems():Observable<Item[]>  { 
+  getAllItems(): Observable<Item[]>  { 
     return this.http.get<Item[]>(this.itensUrl);
   }  
+
+  createItem(item: Item) : Observable<Item>{ 
+    return this.http.post<Item>(this.itensUrl, item);
+  }
 
 }

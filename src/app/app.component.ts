@@ -5,6 +5,7 @@ import { NavbarComponent } from "./components/navbar/navbar.component";
 import { ItemFormComponent } from "./pages/item-form/item-form.component";
 import { HttpClientModule } from '@angular/common/http';
 import { ItemService } from './services/item.service';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @Component({
     selector: 'app-root',
@@ -15,7 +16,8 @@ import { ItemService } from './services/item.service';
       CommonModule, 
       RouterOutlet, 
       NavbarComponent, 
-      ItemFormComponent, 
+      ItemFormComponent,
+      ReactiveFormsModule,
       HttpClientModule],
       providers: [ItemService]
 })

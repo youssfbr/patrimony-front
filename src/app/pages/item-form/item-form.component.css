@@ -8,7 +8,7 @@
     flex: 1;
     flex-wrap: wrap;    
 }
-.date {
+.acquisitionDate {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
@@ -60,6 +60,16 @@ input {
     color: #fff;
     background-color: #198754;
     border-color: #198754;
+
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+}
+.btn:disabled  {
+    background-color: #b0bdb9;
+    border-color: #c4c4c4;
 }
 
 .table-container {   
